@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T13:51:27 IST" name="Default suite" finished-at="2023-08-14T13:53:13 IST" duration-ms="106526">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T13:51:27 IST" name="Default test" finished-at="2023-08-14T13:53:13 IST" duration-ms="106526">
+      <class name="FlyAwayTestcases.FlightBookTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:FlyAwayTestcases.FlightBookTest@2b40ff9c]" started-at="2023-08-14T13:51:27 IST" name="openUrl" finished-at="2023-08-14T13:53:11 IST" duration-ms="104240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="flightBookingTest()[pri:0, instance:FlyAwayTestcases.FlightBookTest@2b40ff9c]" started-at="2023-08-14T13:53:11 IST" name="flightBookingTest" finished-at="2023-08-14T13:53:13 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBookingTest -->
+      </class> <!-- FlyAwayTestcases.FlightBookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
