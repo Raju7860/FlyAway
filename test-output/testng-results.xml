@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-14T13:51:27 IST" name="Default suite" finished-at="2023-08-14T13:53:13 IST" duration-ms="106526">
+  <suite started-at="2023-08-15T10:22:43 IST" name="Default suite" finished-at="2023-08-15T10:23:25 IST" duration-ms="41851">
     <groups>
     </groups>
-    <test started-at="2023-08-14T13:51:27 IST" name="Default test" finished-at="2023-08-14T13:53:13 IST" duration-ms="106526">
+    <test started-at="2023-08-15T10:22:43 IST" name="Default test" finished-at="2023-08-15T10:23:25 IST" duration-ms="41851">
       <class name="FlyAwayTestcases.FlightBookTest">
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:FlyAwayTestcases.FlightBookTest@2b40ff9c]" started-at="2023-08-14T13:51:27 IST" name="openUrl" finished-at="2023-08-14T13:53:11 IST" duration-ms="104240" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:FlyAwayTestcases.FlightBookTest@2b40ff9c]" started-at="2023-08-15T10:22:43 IST" name="openUrl" finished-at="2023-08-15T10:23:18 IST" duration-ms="34715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="flightBookingTest()[pri:0, instance:FlyAwayTestcases.FlightBookTest@2b40ff9c]" started-at="2023-08-14T13:53:11 IST" name="flightBookingTest" finished-at="2023-08-14T13:53:13 IST" duration-ms="2221" status="PASS">
+        <test-method signature="flightBookingTest()[pri:0, instance:FlyAwayTestcases.FlightBookTest@2b40ff9c]" started-at="2023-08-15T10:23:19 IST" name="flightBookingTest" finished-at="2023-08-15T10:23:25 IST" duration-ms="5964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightBookingTest -->
