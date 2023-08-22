@@ -40,7 +40,7 @@ public class PgObjForFlightBook {
 	@FindBy(xpath = "//a[normalize-space()='Book Flight']")
 	WebElement book_Flight;
 	
-	@FindBy(xpath = "//a[normalize-space()='Click to complete booking']")
+	@FindBy(css = "a[href='completepurchase']")
 	WebElement completeBooking;
 	
 	@FindBy(xpath = "//h3[normalize-space()='FLYAWAY - BOOKING CONFIRMATION']")
@@ -83,13 +83,13 @@ public class PgObjForFlightBook {
 	}
 
 	public void clickonBookFlight() {
-		// click on book flight
+		
 		book_Flight.click();
 
 	}
 	
 	public void clickToCompleteBooking() {
-		// click on book flight
+		
 		completeBooking.click();
 
 	}
