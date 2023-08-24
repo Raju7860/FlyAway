@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "3365d9ed-4790-4a73-9bbf-b2dc5c6f2bfd",
+		"name": "restassured1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27739270"
+	},
+	"item": [
+		{
+			"name": "bookingdetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/FlyAway/home?source=1&destination=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"FlyAway",
+						"home"
+					],
+					"query": [
+						{
+							"key": "source",
+							"value": "1"
+						},
+						{
+							"key": "destination",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
